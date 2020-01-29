@@ -1,4 +1,5 @@
 import React from 'react';
+import bg from '../../img/bg.jpg';
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
                 <div className="col-9">
                     <div className="tab-content" id="v-pills-tabContent">
                         <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                            Well, thanks to the Internet, I'm now bored with sex. Is there a place on the web that panders to my lust for violence? A true inspiration for the children. Hey, what kinda party is this? There's no booze and only one hooker.
+                            <img src={bg} alt="bg" width="80%" />
                         </div>
                         <div className="tab-pane fade" id="v-pills-portfolio" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                             Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! You guys realize you live in a sewer, right? My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
