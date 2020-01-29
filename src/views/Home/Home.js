@@ -5,6 +5,7 @@ import bg from '../../img/bg.jpg';
 import iwash from '../../img/i.jpg';
 import share from '../../img/s.jpg';
 import get from '../../img/g.jpg';
+import gew from '../../img/gew.png';
 
 
 const Home = () => {
@@ -46,6 +47,12 @@ const Home = () => {
                                     <a href="https://get-details.herokuapp.com/">
                                         <img src={get} alt="get" width="100%" height="200px" />
                                         <p className="text-center">Get-Details</p>
+                                    </a>
+                                </div>
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <a href="https://gewjots.herokuapp.com/">
+                                        <img src={gew} alt="gew" width="100%" height="200px" />
+                                        <p className="text-center">GewJots</p>
                                     </a>
                                 </div>
                                 <div className="col-sm-12 col-md-4 col-lg-4">
