@@ -31,54 +31,35 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-project" role="tabpanel" aria-labelledby="v-pills-project-tab">
                             <div className="row">
+                                
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://iwash-react.herokuapp.com/">
                                         <img src={iwash} alt="iwash" width="100%" min-height="100%" />
                                         <p className="text-center">iWash</p>
                                     </a>
                                 </div>
+
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://sharesensation.herokuapp.com/">
                                         <img src={share} alt="share" width="100%" height="200px" />
                                         <p className="text-center">Sharesensation</p>
                                     </a>
                                 </div>
+
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://get-details.herokuapp.com/">
                                         <img src={get} alt="get" width="100%" height="200px" />
                                         <p className="text-center">Get-Details</p>
                                     </a>
                                 </div>
+
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://gewjots.herokuapp.com/">
                                         <img src={gew} alt="gew" width="100%" height="200px" />
                                         <p className="text-center">GewJots</p>
                                     </a>
                                 </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" height="200px" />
-                                    <p className="text-center">here the title</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" />
-                                    <p className="text-center">here the title</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" />
-                                    <p className="text-center">here the title</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" />
-                                    <p className="text-center">here the title</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" />
-                                    <p className="text-center">here the title</p>
-                                </div>
-                                <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <img src={bg} alt="test" width="100%" />
-                                    <p className="text-center">here the title</p>
-                                </div>
+                                
                             </div>
                         </div>
 
