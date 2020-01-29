@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from '../../img/bg.jpg';
+import styles from './Home.module.css';
 
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
             <div className="row mt-5">
                 <div className="col-3" >
                     <h4> <i class="fas fa-code"></i> SAMIR BENZADA</h4>
-                    <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <div className={["nav flex-column nav-pills", styles.leftNav].join(' ')} id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
                         <a id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-portfolio" role="tab" aria-controls="v-pills-profile" aria-selected="false">Portfolio</a>
                         <a id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-project" role="tab" aria-controls="v-pills-messages" aria-selected="false">Project</a>
