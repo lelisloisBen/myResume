@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div className="container-fluid">
             <div className="row mt-5">
-                <div className="col-3" >
-                    <h4> <i class="fas fa-code"></i> SAMIR BENZADA</h4>
+                <div className="col-sm-12 col-md-3 col-lg-3" >
+                    <h4 className="ml-4"><i class="fas fa-code"></i> SAMIR BENZADA</h4>
                     <div className={["nav flex-column nav-pills", styles.leftNav].join(' ')} id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
                         <a id="v-pills-project-tab" data-toggle="pill" href="#v-pills-project" role="tab" aria-controls="v-pills-messages" aria-selected="false">Project</a>
@@ -17,7 +17,7 @@ const Home = () => {
                         <a id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
                     </div>
                 </div>
-                <div className="col-9">
+                <div className="col-sm-12 col-md-9 col-lg-9">
                     <div className="tab-content" id="v-pills-tabContent">
                         <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <img src={bg} alt="bg" width="80%" />
