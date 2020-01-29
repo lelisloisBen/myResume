@@ -6,6 +6,17 @@ import iwash from '../../img/i.jpg';
 import share from '../../img/s.jpg';
 import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
+import bootstrap from '../../img/skills/bootstrap.png';
+import flask from '../../img/skills/flask.png';
+import google from '../../img/skills/google.jpg';
+import html from '../../img/skills/html.png';
+import js from '../../img/skills/js.png';
+import mysql from '../../img/skills/mysql.png';
+import paypal from '../../img/skills/paypal.png';
+import python from '../../img/skills/python.png';
+import raspberry from '../../img/skills/raspberry.png';
+import react from '../../img/skills/react.png';
+
 
 
 const Home = () => {
@@ -31,7 +42,7 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-project" role="tabpanel" aria-labelledby="v-pills-project-tab">
                             <div className="row">
-                                
+
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://iwash-react.herokuapp.com/">
                                         <img src={iwash} alt="iwash" width="100%" min-height="100%" />
@@ -64,7 +75,38 @@ const Home = () => {
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
-                            Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! You guys realize you live in a sewer, right? My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+                            <div className="row">
+                                <div className="col">
+                                    <img src={bootstrap} alt="bootstrap" width="100%" />
+                                </div>
+                                <div className="col">
+                                    <img src={flask} alt="flask" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={google} alt="google" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={html} alt="html" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={js} alt="js" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={mysql} alt="mysql" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={paypal} alt="paypal" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={python} alt="python" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={raspberry} alt="raspberry" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={react} alt="react" width="100%"/>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
