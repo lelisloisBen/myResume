@@ -85,6 +85,9 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
                             <div className="row">
+                                <div className="col-2">
+                                    <img src={html} alt="html" width="100%"/>
+                                </div>
                                 <div className="col-3">
                                     <img src={bootstrap} alt="bootstrap" width="100%" />
                                 </div>
@@ -93,9 +96,6 @@ const Home = () => {
                                 </div>
                                 <div className="col-2">
                                     <img src={google} alt="google" width="100%"/>
-                                </div>
-                                <div className="col-2">
-                                    <img src={html} alt="html" width="100%"/>
                                 </div>
                                 <div className="col-2">
                                     <img src={js} alt="js" width="100%"/>
