@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Home.module.css';
 
 import me from '../../img/samir.jpg';
@@ -31,6 +31,11 @@ import resume from '../../img/resume/samir.jpg';
 
 
 const Home = () => {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
     return (
         <div className="container-fluid">
             <div className="row mt-5">
@@ -145,7 +150,8 @@ const Home = () => {
                         <div className="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
                             <div className="row">
                                 <div className="col-8">
-                                    hwejwef
+                                Dedicated web developer constantly learning and using the latest front-end and back-end technologies. 
+                                Excited about opportunities where experience can best be leveraged towards working on projects in a team environment.
                                 </div>
                                 <div className="col-4">
                                     <img src={me} alt="me" width="100%" />
@@ -156,9 +162,27 @@ const Home = () => {
                         <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
 
                             <div className={styles.form}>
-                                <input type="text" name="name" placeholder="Full Name" />
-                                <input type="email" name="email" placeholder="Email" />
-                                <textarea name="message" id="message" placeholder="Enter Your Message Here..."></textarea>
+                                <input 
+                                    type="text" 
+                                    name="name" 
+                                    placeholder="Full Name" 
+                                    value={name}
+                                    onChange={e => setName(e)}
+                                />
+                                <input 
+                                    type="email" 
+                                    name="email" 
+                                    placeholder="Email"
+                                    value={email}
+                                    onChange={e => setEmail(e)}
+                                />
+                                <textarea 
+                                    name="message" 
+                                    id="message" 
+                                    placeholder="Enter Your Message Here..."
+                                    value={message}
+                                    onChange={e => setMessage(e)}
+                                ></textarea>
                                 <button className={styles.inputSubmit} >Send Your Message</button>
                             </div>
                         </div>
