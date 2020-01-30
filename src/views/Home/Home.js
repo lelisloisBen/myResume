@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Home.module.css';
 
+import me from '../../img/samir.jpg';
 import bg from '../../img/bg.jpg';
 import iwash from '../../img/i.jpg';
 import share from '../../img/s.jpg';
@@ -25,7 +26,7 @@ import react from '../../img/skills/react.png';
 import ubuntu from '../../img/skills/ubuntu.png';
 import wordpress from '../../img/skills/wordpress.png';
 
-import resume from '../../img/resume/samir.pdf';
+import resume from '../../img/resume/samir.jpg';
 
 
 
@@ -142,7 +143,14 @@ const Home = () => {
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
-                        Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. I haven't felt much of anything since my guinea pig died. And so we say goodbye to our beloved pet, Nibbler, who's gone to a place where I, too, hope one day to go. The toilet.
+                            <div className="row">
+                                <div className="col-8">
+                                    hwejwef
+                                </div>
+                                <div className="col-4">
+                                    <img src={me} alt="me" width="100%" />
+                                </div>
+                            </div>
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
