@@ -85,55 +85,55 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
                             <div className="row">
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={bootstrap} alt="bootstrap" width="100%" />
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={flask} alt="flask" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={google} alt="google" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={html} alt="html" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={js} alt="js" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={mysql} alt="mysql" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={paypal} alt="paypal" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={python} alt="python" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={raspberry} alt="raspberry" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={react} alt="react" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={jquery} alt="jquery" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={linux} alt="linux" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={node} alt="node" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={php} alt="php" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={phpmyadmin} alt="phpmyadmin" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={ubuntu} alt="ubuntu" width="100%"/>
                                 </div>
-                                <div className="col">
+                                <div className="col-3">
                                     <img src={wordpress} alt="wordpress" width="100%"/>
                                 </div>
                             </div>
