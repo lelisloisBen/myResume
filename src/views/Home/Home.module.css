@@ -45,10 +45,10 @@
 .inputSubmit:focus,
 .inputSubmit:hover {
     background: #FFFFFF;
-    color: #66AF33;
+    color: black;
     box-shadow: none;
     outline: none;
-    border: 1px solid #66AF33;
+    border: 1px solid black;
 }
 .form textarea {
     padding: 10px 20px;
@@ -64,7 +64,7 @@
 }
 .form textarea:focus {
     outline: none;
-    border: 1px solid #66AF33;
+    border: 1px solid black;
 }
 .form select {
     padding: 10px 20px;
@@ -81,7 +81,7 @@
 }
 .form select:focus {
     outline: none;
-    border: 1px solid #66AF33;
+    border: 1px solid black;
 }
 
 
