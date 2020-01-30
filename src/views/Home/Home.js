@@ -6,16 +6,24 @@ import iwash from '../../img/i.jpg';
 import share from '../../img/s.jpg';
 import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
+
 import bootstrap from '../../img/skills/bootstrap.png';
 import flask from '../../img/skills/flask.png';
 import google from '../../img/skills/google.jpg';
 import html from '../../img/skills/html.png';
+import jquery from '../../img/skills/jquery.png';
 import js from '../../img/skills/js.png';
+import linux from '../../img/skills/linux.png';
 import mysql from '../../img/skills/mysql.png';
+import node from '../../img/skills/node.png';
 import paypal from '../../img/skills/paypal.png';
+import php from '../../img/skills/php.png';
+import phpmyadmin from '../../img/skills/phpmyadmin.png';
 import python from '../../img/skills/python.png';
 import raspberry from '../../img/skills/raspberry.png';
 import react from '../../img/skills/react.png';
+import ubuntu from '../../img/skills/ubuntu.png';
+import wordpress from '../../img/skills/ubuntu.png';
 
 
 
@@ -106,6 +114,27 @@ const Home = () => {
                                 </div>
                                 <div className="col">
                                     <img src={react} alt="react" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={jquery} alt="jquery" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={linux} alt="linux" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={node} alt="node" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={php} alt="php" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={phpmyadmin} alt="phpmyadmin" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={ubuntu} alt="ubuntu" width="100%"/>
+                                </div>
+                                <div className="col">
+                                    <img src={wordpress} alt="wordpress" width="100%"/>
                                 </div>
                             </div>
                         </div>
