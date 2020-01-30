@@ -167,21 +167,21 @@ const Home = () => {
                                     name="name" 
                                     placeholder="Full Name" 
                                     value={name}
-                                    onChange={e => setName(e)}
+                                    onChange={e => setName(e.target.value)}
                                 />
                                 <input 
                                     type="email" 
                                     name="email" 
                                     placeholder="Email"
                                     value={email}
-                                    onChange={e => setEmail(e)}
+                                    onChange={e => setEmail(e.target.value)}
                                 />
                                 <textarea 
                                     name="message" 
                                     id="message" 
                                     placeholder="Enter Your Message Here..."
                                     value={message}
-                                    onChange={e => setMessage(e)}
+                                    onChange={e => setMessage(e.target.value)}
                                 ></textarea>
                                 <button className={styles.inputSubmit} >Send Your Message</button>
                             </div>
