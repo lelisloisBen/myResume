@@ -144,7 +144,24 @@ const Home = () => {
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
-                       bla vla lcdlsca  Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. I haven't felt much of anything since my guinea pig died. And so we say goodbye to our beloved pet, Nibbler, who's gone to a place where I, too, hope one day to go. The toilet.
+                            <div className="text-center my-5">
+                                <h4>Contact me</h4>
+                            </div>
+
+
+                            <div className={styles.form}>
+                                <input type="text" name="name" placeholder="Full Name *" />
+                                <input type="email" name="email" placeholder="Email *" />
+                                <select name="subject" >
+                                    <option >select subject *</option>
+                                    <option value="Technical support" >Technical support</option>
+                                    <option value="Reservation" >Reservation</option>
+                                    <option value="Press" >Press</option>
+                                    <option value="Other.." >Other..</option>
+                            </select>
+                                <textarea name="message" id="message" placeholder="Enter Your Message Here..."></textarea>
+                                <button className={styles.inputSubmit} >Send Your Message</button>
+                            </div>
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-resume" role="tabpanel" aria-labelledby="v-pills-resume-tab">
