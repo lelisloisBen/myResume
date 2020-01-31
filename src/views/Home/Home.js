@@ -9,7 +9,7 @@ import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
 import air from '../../img/air.jpg';
 import tic from '../../img/tic.jpg';
-import mario from '../../img/mario.jpg';
+import mario from '../../img/mario.png';
 
 import bootstrap from '../../img/skills/bootstrap.png';
 import flask from '../../img/skills/flask.png';
