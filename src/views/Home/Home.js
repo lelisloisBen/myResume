@@ -31,6 +31,7 @@ import ubuntu from '../../img/skills/ubuntu.png';
 import wordpress from '../../img/skills/wordpress.png';
 
 import resume from '../../img/resume/samir.jpg';
+import resume1 from '../../img/resume/samir1.jpg';
 
 
 
@@ -222,6 +223,7 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-resume" role="tabpanel" aria-labelledby="v-pills-resume-tab">
                             <img src={resume} alt="resume" width="100%" />
+                            <img src={resume1} alt="resume1" width="100%" />
                         </div>
                     </div>
 
