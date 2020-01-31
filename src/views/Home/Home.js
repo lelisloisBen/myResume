@@ -8,6 +8,7 @@ import share from '../../img/s.jpg';
 import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
 import air from '../../img/air.jpg';
+import tic from '../../img/tic.jpg';
 
 import bootstrap from '../../img/skills/bootstrap.png';
 import flask from '../../img/skills/flask.png';
@@ -63,14 +64,14 @@ const Home = () => {
 
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://aircraft-training-record.herokuapp.com/">
-                                        <img src={air} alt="iwash" width="100%" min-height="100%" />
+                                        <img src={air} alt="iwash" width="100%" height="200px" />
                                         <p className="text-center">Aircraft Training Record</p>
                                     </a>
                                 </div>
 
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://iwash-react.herokuapp.com/">
-                                        <img src={iwash} alt="iwash" width="100%" min-height="100%" />
+                                        <img src={iwash} alt="iwash" width="100%" height="200px" />
                                         <p className="text-center">iWash</p>
                                     </a>
                                 </div>
@@ -93,6 +94,13 @@ const Home = () => {
                                     <a href="https://gewjots.herokuapp.com/">
                                         <img src={gew} alt="gew" width="100%" height="200px" />
                                         <p className="text-center">GewJots</p>
+                                    </a>
+                                </div>
+
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <a href="https://tic-tac-toe-halloween.herokuapp.com/">
+                                        <img src={tic} alt="tic" width="100%" height="200px" />
+                                        <p className="text-center">Tic-Tac-Toe Halloween</p>
                                     </a>
                                 </div>
                                 
