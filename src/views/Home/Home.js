@@ -217,6 +217,7 @@ const Home = () => {
                                 ></textarea>
                                 <button className={styles.inputSubmit} >Send Your Message</button>
                             </div>
+
                         </div>
 
                         <div className="tab-pane fade" id="v-pills-resume" role="tabpanel" aria-labelledby="v-pills-resume-tab">
