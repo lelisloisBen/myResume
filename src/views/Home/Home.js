@@ -7,6 +7,7 @@ import iwash from '../../img/i.jpg';
 import share from '../../img/s.jpg';
 import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
+import air from '../../img/air.jpg';
 
 import bootstrap from '../../img/skills/bootstrap.png';
 import flask from '../../img/skills/flask.png';
@@ -59,6 +60,13 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-project" role="tabpanel" aria-labelledby="v-pills-project-tab">
                             <div className="row">
+
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <a href="https://aircraft-training-record.herokuapp.com/">
+                                        <img src={air} alt="iwash" width="100%" min-height="100%" />
+                                        <p className="text-center">Aircraft Training Record</p>
+                                    </a>
+                                </div>
 
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://iwash-react.herokuapp.com/">
