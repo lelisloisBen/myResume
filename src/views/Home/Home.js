@@ -9,6 +9,7 @@ import get from '../../img/g.jpg';
 import gew from '../../img/gew.png';
 import air from '../../img/air.jpg';
 import tic from '../../img/tic.jpg';
+import mario from '../../img/mario.jpg';
 
 import bootstrap from '../../img/skills/bootstrap.png';
 import flask from '../../img/skills/flask.png';
@@ -101,6 +102,13 @@ const Home = () => {
                                     <a href="https://tic-tac-toe-halloween.herokuapp.com/">
                                         <img src={tic} alt="tic" width="100%" height="200px" />
                                         <p className="text-center">Tic-Tac-Toe Halloween</p>
+                                    </a>
+                                </div>
+
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <a href="https://react-audio-player-mario.herokuapp.com/">
+                                        <img src={mario} alt="mario" width="100%" height="200px" />
+                                        <p className="text-center">React Audio Player</p>
                                     </a>
                                 </div>
                                 
