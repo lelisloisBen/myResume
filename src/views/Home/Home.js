@@ -120,6 +120,13 @@ const Home = () => {
                                         <p className="text-center">JavaScript Battleship</p>
                                     </a>
                                 </div>
+
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <a href="https://boiler-plate-reacthooks.herokuapp.com/">
+                                        <img src={bat} alt="bat" width="100%" height="200px" />
+                                        <p className="text-center">JavaScript Battleship</p>
+                                    </a>
+                                </div>
                                 
                             </div>
                         </div>
