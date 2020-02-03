@@ -46,7 +46,7 @@ const Home = () => {
         <div className="container-fluid">
             <div className="row mt-5">
                 <div className="col-sm-12 col-md-3 col-lg-3" >
-                    <h4 className="ml-4"><i class="fas fa-code"></i> SAMIR BENZADA</h4>
+                    <h4 className="ml-4"><i className="fas fa-code"></i> SAMIR BENZADA</h4>
                     <div className={["nav flex-column nav-pills", styles.leftNav].join(' ')} id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
                         <a id="v-pills-project-tab" data-toggle="pill" href="#v-pills-project" role="tab" aria-controls="v-pills-messages" aria-selected="false">Project</a>
@@ -202,9 +202,12 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
 
-                            <h4>Email: samirbenzada@gmail.com</h4>
-                            <h4>Phone: (786) 296-2400</h4>
-                            <h4>Github: <a href="github.com/samirbenzada" target="_blank">samirbenzada</a></h4>
+                            <div className="mt-5 ml-5">
+                                <h4 className={styles.bold} >Email: samirbenzada@gmail.com</h4>
+                                <h4 className={styles.bold} >Phone: (786) 296-2400</h4>
+                                <h4 className={styles.bold} >Github: <a href="github.com/samirbenzada" target="_blank">samirbenzada</a></h4>
+                                <h4></h4>
+                            </div>
                             {/* <div className={styles.form}>
                                 <input 
                                     type="text" 
