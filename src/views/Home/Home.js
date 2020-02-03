@@ -125,7 +125,7 @@ const Home = () => {
                                 <div className="col-sm-12 col-md-4 col-lg-4">
                                     <a href="https://boiler-plate-reacthooks.herokuapp.com/">
                                         <img src={boiler} alt="boiler" width="100%" height="200px" />
-                                        <p className="text-center">Samir's Boiler Plate. React hooks easy start</p>
+                                        <p className="text-center">Samir's Boiler Plate. React hooks easy</p>
                                     </a>
                                 </div>
                                 
@@ -202,7 +202,10 @@ const Home = () => {
 
                         <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
 
-                            <div className={styles.form}>
+                            <h4>Email: samirbenzada@gmail.com</h4>
+                            <h4>Phone: (786) 296-2400</h4>
+                            <h4>Github: <a href="github.com/samirbenzada" target="_blank">samirbenzada</a></h4>
+                            {/* <div className={styles.form}>
                                 <input 
                                     type="text" 
                                     name="name" 
@@ -225,7 +228,7 @@ const Home = () => {
                                     onChange={e => setMessage(e.target.value)}
                                 ></textarea>
                                 <button className={styles.inputSubmit} >Send Your Message</button>
-                            </div>
+                            </div> */}
 
                         </div>
 
