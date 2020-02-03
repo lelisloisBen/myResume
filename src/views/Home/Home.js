@@ -206,7 +206,7 @@ const Home = () => {
                                 <h4 className={styles.bold} >Email: samirbenzada@gmail.com</h4>
                                 <h4 className={styles.bold} >Phone: (786) 296-2400</h4>
                                 <h4 className={styles.bold} >Github: <a href="github.com/samirbenzada" target="_blank">samirbenzada</a></h4>
-                                <h4></h4>
+                                <h4 className={styles.bold} >LinkedIn: <a href="linkedin.com/in/samir-benzada-5ab431196" target="_blank">samir-benzada-5ab431196</a></h4>
                             </div>
                             {/* <div className={styles.form}>
                                 <input 
