@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Home.module.css';
 
 import me from '../../img/samir.jpg';
@@ -38,9 +38,9 @@ import resume1 from '../../img/resume/samir1.jpg';
 
 const Home = () => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [message, setMessage] = useState('');
 
     return (
         <div className="container-fluid">
